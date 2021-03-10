@@ -1,0 +1,25 @@
+{
+    "name": "ranokai-theme",
+    "displayName": "Ranokai",
+    "description": "ranokai-theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ranokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ranokai-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^1.85.1"
+    },
+    "publisher": "secret"
+}

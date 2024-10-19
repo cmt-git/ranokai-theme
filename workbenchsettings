@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Ranokai",
+  "workbench.colorTheme": "Palenight Operator",
   "workbench.iconTheme": "vscode-icons",
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.colorCustomizations": {
@@ -385,37 +385,55 @@
   "better-comments.tags": [
     {
       "tag": "@",
-      "color": "#000",
+      "color": "#a19e94",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#a19e94",
+      "backgroundColor": "#202233",
       "bold": true,
       "italic": false
     },
     {
       "tag": "info:",
-      "color": "#000",
+      "color": "#1b95c4",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#05c5ff",
+      "backgroundColor": "#202233",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#1b95c4",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#202233",
       "bold": true,
       "italic": false
     },
     {
       "tag": "warning:",
-      "color": "#000",
+      "color": "#c41b59",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#ff386d",
+      "backgroundColor": "#202233",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "!",
+      "color": "#c41b59",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#202233",
       "bold": true,
       "italic": false
     },
     {
       "tag": "region:",
-      "color": "#000",
+      "color": "#c4951b",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#ffcf33",
+      "backgroundColor": "#202233",
       "bold": true,
       "italic": false
     }
@@ -441,6 +459,14 @@
   },
   "[python]": {
     "editor.formatOnType": true
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.tabSize": 2 // optionally
+  },
+  "[terraform-vars]": {
+    "editor.tabSize": 2 // optionally
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "never",
@@ -524,5 +550,27 @@
     "zlib",
     "wordpress"
   ],
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.minimap.scale": 2,
+  "workbench.settings.applyToAllProfiles": [],
+  "editor.quickSuggestionsDelay": 10,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.env.osx": {},
+  "files.exclude": {
+    "*.next": true,
+    "*.Next": true
+  },
+  "RainbowBrackets.depreciation-notice": false,
+  "console-ninja.featureSet": "Community",
+  "workbench.editor.wrapTabs": true,
+  "files.associations": {
+    "*.tailwind.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "editor.fontFamily": "JetBrains Mono"
 }
